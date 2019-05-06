@@ -1,0 +1,23 @@
+rect.back {fill:bisque;}
+        .arrowspace {background-color:pink;}
+        rect.two, path.three, rect.middle {fill:chocolate;}
+        /* rect.two {transform: rotate(1deg);} */
+
+        path.three .narrow {
+    transform: rotate(25deg);
+    transform-origin: 60px 50px;
+        }
+@keyframes moveArrows {
+    0% {
+            transform: rotate(25deg);
+            transform-origin: 60px 50px;
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 100px 100px;
+    }
+}        
+
+path.three {
+    animation: moveArrows 2s;
+}
