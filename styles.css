@@ -8,7 +8,7 @@ rect.back {fill:bisque;}
     transform-origin: 60px 50px;
         }
 @keyframes moveArrows {
-    0% {
+    60% {
             transform: rotate(25deg);
             transform-origin: 60px 50px;
     }
@@ -19,5 +19,5 @@ rect.back {fill:bisque;}
 }        
 
 path.three {
-    animation: moveArrows 2s;
+    animation: moveArrows 5s;
 }
